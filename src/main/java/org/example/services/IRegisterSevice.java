@@ -1,4 +1,7 @@
 package org.example.services;
 
-public class IRegisterSevice {
+import org.example.model.user.User;
+
+public interface IRegisterSevice {
+    void register(User user, String confirmPassword);
 }
