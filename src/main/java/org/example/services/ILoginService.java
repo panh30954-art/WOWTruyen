@@ -1,4 +1,7 @@
 package org.example.services;
 
-public class ILoginService {
+import org.example.model.user.User;
+
+public interface ILoginService {
+    User authenticate(String username, String password);
 }
